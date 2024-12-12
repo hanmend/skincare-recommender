@@ -1,5 +1,6 @@
 # skincare-recommender
 CS410 at UIUC course project
+Hannah Mendoza (hm26)
 
 ## Purpose 
 
