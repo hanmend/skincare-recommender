@@ -10,7 +10,7 @@ This software is created to recommend skincare products based on a user query ab
 
 To run this software, you will need to install scikit-learn. I used anaconda to manage my environment. You can create an environment with python=3.10 in order to be compatible with scikit-learn. If conda install scikit-learn still gives you an error for the import statements, try pip install scikit-learn instead.
 
-You can take a look at the raw data if you would like in the "archive" folder of this repo. For more details and csv specs, visit the page on kaggle: [Sephora Products and Skincare Reviews on Kaggle](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/data)
+The datasets are too large to load into GitHub. For more details and csv specs, visit the page on kaggle: [Sephora Products and Skincare Reviews on Kaggle](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/data). From the same page, click download --> download dataset as zip. Then, I copied the unzipped "archive" folder into the same fodler as my cloned repo.
 
 ### Running the program 
 
