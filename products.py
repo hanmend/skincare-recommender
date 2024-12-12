@@ -2,7 +2,7 @@ import pandas as pd
 
 class Products():
     def __init__(self, category, price_limit=None):
-        self.complete_dataset = pd.read_csv("archive/product_info.csv")
+        self.complete_dataset = pd.read_csv("data/product_info.csv")
         self.category = category
         self.price_limit = price_limit
         self.brand = None
@@ -23,9 +23,9 @@ class Products():
         products = self.get_products()
         product = products[products['product_id'] == product_id]
 
-        product_name = product['product_name'][0]
-        brand_name = product['brand_name'][0]
-        price = product['price_usd'][0]
-        rating = product['rating'][0]
-
+        product_name = product['product_name'].values[0]
+        brand_name = product['brand_name'].values[0]
+        price = product['price_usd'].values[0]
+        rating = product['rating'].values[0]
+        
         return product_name, brand_name, price, rating
