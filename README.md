@@ -2,6 +2,8 @@
 CS410 at UIUC course project
 Hannah Mendoza (hm26)
 
+Demonstration video: https://mediaspace.illinois.edu/media/t/1_2yq3ttg8
+
 ## Purpose 
 
 This software is created to recommend skincare products based on a user query about what they're looking for. We use a dataset from kaggle called 'Sephora Products and Skincare Reviews' which was scraped from Sephora's website with a python scraper in March 2023. The data contains metadata on the products, as well as another dataset with user reviews of the products. This is a very simple recommender which utilizes cosine similarity of the vectorized queries and product reviews, which are also weighted with TF-IDF in order to discount term frequency when there are a lot of text reviews for one product and not many for another.
