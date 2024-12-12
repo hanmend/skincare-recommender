@@ -11,7 +11,7 @@ To run this software, you will need to install scikit-learn. I used anaconda to 
 
 You can take a look at the raw data if you would like in the "archive" folder of this repo. For more details and csv specs, visit the page on kaggle: [Sephora Products and Skincare Reviews on Kaggle](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews/data)
 
-### running the program 
+### Running the program 
 
 You only need to run main.py. You will be prompted in the console to answer a few questions regarding the type of product you are looking for, including your skin type, your price range, and if you have a particular brand in mind. 
 
